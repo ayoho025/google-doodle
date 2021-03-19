@@ -44,11 +44,11 @@
   top: 0;
   left: 0;
   transform: translateX(-434px);
-  animation: slide 20s linear 2;
+  /* animation: slide 20s linear 2; */
 }
 
 .clouds-1.two {
-  animation-delay: -10s;
+  /* animation-delay: -10s; */
 }
 
 @keyframes slide {
