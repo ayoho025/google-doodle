@@ -3,25 +3,113 @@
 /* Diagnostic Styling 
   * Change Background Color
   * Outline Elements
-*/
 
-/* * {
+* {
   outline: 1px dotted black;
-} */
-
-/* Doodle Stage */
+} 
+*/
 .temp {
   outline: 5px solid red;
+  color: black;
 }
 
-/* class="temp" 
-Cloud-layer-4
-*/
+/* -----------------------------------------Layering and positioning-------------------------------------------- */
+/* absolute children */
+#wall,
+#window,
+#clouds-1,
+#clouds-2,
+#clouds-3,
+#clouds-4,
+#window-border,
+#desk,
+#bookshelf-with-books,
+#speaker,
+#lamp,
+#bookcase,
+#letters,
+#chair,
+#books-stacked,
+#notebook,
+#panda-pencil,
+#mug,
+#laptop,
+#steam,
+#pencil-cup {
+  position: absolute;
+}
 
-/* Doodle Stage */
+.clouds-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-434px);
+  animation: slide 20s linear 2;
+}
+
+.clouds-1.two {
+  animation-delay: -10s;
+}
+
+@keyframes slide {
+  from {
+    transform: translate(434px, 0);
+  }
+  to {
+    transform: translate(-434px, 0);
+  }
+}
+
+#clouds-2 > #clouds-2-2 {
+  outline: 1px dotted black;
+  transform: translateX(450px);
+}
+
+#clouds-3 > #clouds-3-2 {
+  outline: 1px dotted black;
+  transform: translateX(450px);
+}
+
+#clouds-4 > #clouds-4-2 {
+  outline: 1px dotted black;
+  transform: translateX(450px);
+}
+
+#steam-2 {
+  outline: 1px dotted black;
+  transform: translateY(65px);
+}
+
+@keyframes slide {
+  from {
+    transform: translate(300px, 0);
+  }
+  to {
+    transform: translate(-300px, 0);
+  }
+}
+
+#panda-pencil {
+  display: none;
+}
+
+#lamp {
+  display: none;
+}
+
+#wall {
+  display: none;
+}
+
+#bookshelf-with-books {
+  display: none;
+}
+
+/* -----------------------------------------Doodle Stage---------------------------------------- */
 #stage {
   background: #ccc;
-
+  position: relative;
+  overflow: visible;
   /* Change This!!! Fixed Units.*/
   height: 450px;
   width: 900px;
