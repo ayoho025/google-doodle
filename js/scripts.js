@@ -1,15 +1,15 @@
-// var loop = gsap.timeline({ repeat: -1, repeatDelay: 2.5 });
+10; // var loop = gsap.timeline({ repeat: -1, repeatDelay: 2.5 });
 // loop.to("#clouds", { x: -450, duration: 5 });
 
 var cloudOne = TweenMax.fromTo(
   ".clouds-1-1",
-  15,
+  25,
   { x: 0 },
   { x: -434, ease: Linear.easeNone, repeat: -1 }
 );
 var cloudOneTwo = TweenMax.fromTo(
   ".clouds-1-2",
-  15,
+  25,
   { x: 434 },
   { x: 0, ease: Linear.easeNone, repeat: -1 }
 );
@@ -19,13 +19,13 @@ cloudOneTwo.play();
 
 var cloudTwo = TweenMax.fromTo(
   ".clouds-2-1",
-  20,
+  35,
   { x: 0 },
   { x: -434, ease: Linear.easeNone, repeat: -1 }
 );
 var cloudTwoTwo = TweenMax.fromTo(
   ".clouds-2-2",
-  20,
+  35,
   { x: 434 },
   { x: 0, ease: Linear.easeNone, repeat: -1 }
 );
@@ -35,13 +35,13 @@ cloudTwoTwo.play();
 
 var cloudThree = TweenMax.fromTo(
   ".clouds-3-1",
-  25,
+  40,
   { x: 0 },
   { x: -434, ease: Linear.easeNone, repeat: -1 }
 );
 var cloudThreeTwo = TweenMax.fromTo(
   ".clouds-3-2",
-  25,
+  40,
   { x: 434 },
   { x: 0, ease: Linear.easeNone, repeat: -1 }
 );
@@ -51,13 +51,13 @@ cloudThreeTwo.play();
 
 var cloudFour = TweenMax.fromTo(
   ".clouds-4-1",
-  30,
+  45,
   { x: 0 },
   { x: -434, ease: Linear.easeNone, repeat: -1 }
 );
 var cloudFourTwo = TweenMax.fromTo(
   ".clouds-4-2",
-  30,
+  45,
   { x: 434 },
   { x: 0, ease: Linear.easeNone, repeat: -1 }
 );
@@ -80,3 +80,84 @@ var steamTwo = TweenMax.fromTo(
 );
 steamOne.play();
 steamTwo.play();
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+var letterG = TweenMax.fromTo(
+  ".letter-g",
+  1,
+  { y: 0 },
+  {
+    y: -getRandomInt(10) + 10,
+    ease: CustomEase.create(
+      "custom",
+      "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
+    ),
+    repeat: -1,
+    repeatDelay: -getRandomInt(5) / 10
+  }
+);
+var letterOOne = TweenMax.fromTo(
+  ".letter-o-1",
+  1,
+  { y: 0 },
+  {
+    y: -getRandomInt(10) + 10,
+    ease: CustomEase.create(
+      "custom",
+      "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
+    ),
+    repeat: -1,
+    repeatDelay: -getRandomInt(5) / 10
+  }
+);
+var letterOTwo = TweenMax.fromTo(
+  ".letter-o-2",
+  1,
+  { y: 0 },
+  {
+    y: -getRandomInt(10) + 10,
+    ease: CustomEase.create(
+      "custom",
+      "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
+    ),
+    repeat: -1,
+    repeatDelay: -getRandomInt(5) / 10
+  }
+);
+var letterL = TweenMax.fromTo(
+  ".letter-l",
+  1,
+  { y: 0 },
+  {
+    y: -getRandomInt(10) + 10,
+    ease: CustomEase.create(
+      "custom",
+      "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
+    ),
+    repeat: -1,
+    repeatDelay: -getRandomInt(5) / 10
+  }
+);
+var letterE = TweenMax.fromTo(
+  ".letter-e",
+  1,
+  { y: 0 },
+  {
+    y: -getRandomInt(10) + 10,
+    ease: CustomEase.create(
+      "custom",
+      "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
+    ),
+    repeat: -1,
+    repeatDelay: -getRandomInt(5) / 10
+  }
+);
+
+letterG.play();
+letterOOne.play();
+letterOTwo.play();
+letterL.play();
+letterE.play();
