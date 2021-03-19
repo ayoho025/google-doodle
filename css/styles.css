@@ -38,31 +38,32 @@
 #pencil-cup {
   position: absolute;
 }
-/* 
-#steam-1 {
-  transform: translateY(-50px);
+
+#speakers {
+  transform-origin: 5% 40%;
+  animation: tweeder 1s infinite ease;
 }
 
-#steam-2 {
-  outline: 1px dotted black;
-  transform: translateY(65px);
-} */
-/* 
-#panda-pencil {
-  display: none;
+@keyframes tweeder {
+  0% {
+    transform: scale(1.1);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  35% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1.15);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
-
-#lamp {
-  display: none;
-}
-
-#wall {
-  display: none;
-}
-
-#bookshelf-with-books {
-  display: none;
-} */
 
 /* -----------------------------------------Doodle Stage---------------------------------------- */
 #stage {
