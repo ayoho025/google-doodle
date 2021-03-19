@@ -88,9 +88,9 @@ function getRandomInt(max) {
 var letterG = TweenMax.fromTo(
   ".letter-g",
   1,
-  { y: 0 },
+  { y: -getRandomInt(10) + 10 },
   {
-    y: -getRandomInt(10) + 10,
+    y: 0,
     ease: CustomEase.create(
       "custom",
       "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
@@ -102,9 +102,9 @@ var letterG = TweenMax.fromTo(
 var letterOOne = TweenMax.fromTo(
   ".letter-o-1",
   1,
-  { y: 0 },
+  { y: -getRandomInt(10) + 10 },
   {
-    y: -getRandomInt(10) + 10,
+    y: 0,
     ease: CustomEase.create(
       "custom",
       "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
@@ -116,9 +116,9 @@ var letterOOne = TweenMax.fromTo(
 var letterOTwo = TweenMax.fromTo(
   ".letter-o-2",
   1,
-  { y: 0 },
+  { y: -getRandomInt(10) + 10 },
   {
-    y: -getRandomInt(10) + 10,
+    y: 0,
     ease: CustomEase.create(
       "custom",
       "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
@@ -130,9 +130,9 @@ var letterOTwo = TweenMax.fromTo(
 var letterL = TweenMax.fromTo(
   ".letter-l",
   1,
-  { y: 0 },
+  { y: -getRandomInt(10) + 10 },
   {
-    y: -getRandomInt(10) + 10,
+    y: 0,
     ease: CustomEase.create(
       "custom",
       "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "
@@ -144,9 +144,9 @@ var letterL = TweenMax.fromTo(
 var letterE = TweenMax.fromTo(
   ".letter-e",
   1,
-  { y: 0 },
+  { y: -getRandomInt(10) + 10 },
   {
-    y: -getRandomInt(10) + 10,
+    y: 0,
     ease: CustomEase.create(
       "custom",
       "M0,0 C0.2,0 0.192,0.82 0.304,0.82 0.411,0.82 0.45,0 0.45,0 0.45,0 0.524,0.382 0.622,0.382 0.71,0.382 0.758,0 0.758,0 0.758,0 0.803,0.226 0.873,0.226 0.928,0.226 0.981,0 1,0 "

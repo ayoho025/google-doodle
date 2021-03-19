@@ -65,6 +65,10 @@
   }
 }
 
+#letters {
+  transform: translateY(-4px);
+}
+
 /* -----------------------------------------Doodle Stage---------------------------------------- */
 #stage {
   background: #ccc;
