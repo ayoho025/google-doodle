@@ -64,3 +64,19 @@ var cloudFourTwo = TweenMax.fromTo(
 
 cloudFour.play();
 cloudFourTwo.play();
+
+var steamOne = TweenMax.fromTo(
+  ".steam-1",
+  10,
+  { y: 40, autoAlpha: 1 },
+  { y: -30, ease: Linear.easeNone, repeat: -1, autoAlpha: 0 }
+);
+
+var steamTwo = TweenMax.fromTo(
+  ".steam-2",
+  10,
+  { y: 40, autoAlpha: 1 },
+  { y: -30, ease: Linear.easeNone, repeat: -1, repeatDelay: -5, autoAlpha: 0 }
+);
+steamOne.play();
+steamTwo.play();

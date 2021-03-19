@@ -38,11 +38,15 @@
 #pencil-cup {
   position: absolute;
 }
+/* 
+#steam-1 {
+  transform: translateY(-50px);
+}
 
 #steam-2 {
   outline: 1px dotted black;
   transform: translateY(65px);
-}
+} */
 /* 
 #panda-pencil {
   display: none;
