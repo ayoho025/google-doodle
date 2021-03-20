@@ -87,7 +87,7 @@ function getRandomInt(max) {
 
 var letterG = TweenMax.fromTo(
   ".letter-g",
-  1,
+  2,
   { y: -getRandomInt(10) + 10 },
   {
     y: 0,
@@ -101,7 +101,7 @@ var letterG = TweenMax.fromTo(
 );
 var letterOOne = TweenMax.fromTo(
   ".letter-o-1",
-  1,
+  2,
   { y: -getRandomInt(10) + 10 },
   {
     y: 0,
@@ -115,7 +115,7 @@ var letterOOne = TweenMax.fromTo(
 );
 var letterOTwo = TweenMax.fromTo(
   ".letter-o-2",
-  1,
+  2,
   { y: -getRandomInt(10) + 10 },
   {
     y: 0,
@@ -129,7 +129,7 @@ var letterOTwo = TweenMax.fromTo(
 );
 var letterL = TweenMax.fromTo(
   ".letter-l",
-  1,
+  2,
   { y: -getRandomInt(10) + 10 },
   {
     y: 0,
@@ -143,7 +143,7 @@ var letterL = TweenMax.fromTo(
 );
 var letterE = TweenMax.fromTo(
   ".letter-e",
-  1,
+  2,
   { y: -getRandomInt(10) + 10 },
   {
     y: 0,
